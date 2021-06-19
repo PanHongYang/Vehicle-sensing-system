@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+ <node pkg="zuoyouradar" name="zuoyouradar" type="zuoyouradar" output="screen" >
+ </node>
+ <!--node pkg="rosbag" type="record" name="bag_record_lefteradar" args="-O leftradar /canfd_processor/leftradar_target /left_radar_tf"/>
+ <node pkg="rosbag" type="record" name="bag_record_rightradar" args="-O rightradar /canfd_processor/rightradar_target /right_radar_tf"/-->
+ <node pkg="tf" type="static_transform_publisher" name="name1" args="2 0.021 1.85 0 0.004 -0.015 vehicle frame_id1 1000" />
+  <node pkg="tf" type="static_transform_publisher" name="name2" args="2 0.021 1.85 0 0.004 -0.015 vehicle frame_id2 1000" />
+  <node pkg="tf" type="static_transform_publisher" name="name2" args="2 0.021 1.85 0 0.004 -0.015 vehicle frame_id3 1000" />
+  <node pkg="tf" type="static_transform_publisher" name="name2" args="2 0.021 1.85 0 0.004 -0.015 vehicle frame_id4 1000" />
+
+</launch>

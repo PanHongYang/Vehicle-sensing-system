@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+ <node pkg="serial_port" name="serial_port" type="serial_port_node" output="screen">
+ </node>
+ <node pkg="rosbag" type="record" name="bag_record_gps" args="-O gps /data_gps"/> 
+</launch>

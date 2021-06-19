@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="tf" type="static_transform_publisher" name="sensor_frame_to_vehicle" args="2 0.021 1.85 0 0.004 -0.015 vehicle sensor_frame 1000" />
+  <node pkg="tf" type="static_transform_publisher" name="imu_to_sensor_frame" args="0 0 0 0 0 0 sensor_frame imu 1000" />
+  <node pkg="tf" type="static_transform_publisher" name="rslidar_to_sensor_frame" args="-0.09 0 0.0625 -1.576 0.01841 0.03221 sensor_frame rslidar 1000" />
+  <node pkg="tf" type="static_transform_publisher" name="base_radar_link_to_vehicle" args="-0.77 -0.0752 0.1126 3.149 0 0 vehicle base_radar_link 1000" />
+  <node pkg="tf" type="static_transform_publisher" name="esr_can0_frame_to_vehicle" args="-0.585 -0.706 0.6679 -27.55 0 8.327e-17 vehicle esr_can0_frame 1000" />
+  <node pkg="tf" type="static_transform_publisher" name="esr_can1_frame_to_vehicle" args="-1.01 -0.05525 0.5501 3.112 0 0 vehicle esr_can1_frame 1000" />
+  <node pkg="tf" type="static_transform_publisher" name="esr_can2_frame_to_vehicle" args="-0.543 1.109 0.43 4.371 0 0 vehicle esr_can2_frame 1000" />
+  <node pkg="tf" type="static_transform_publisher" name="esr_can3_frame_to_vehicle" args="3.857 1.161 0.51 0.8232 0 0 vehicle esr_can3_frame 1000" />
+  <node pkg="tf" type="static_transform_publisher" name="esr_can4_frame_to_vehicle" args="4.545 -1.317 0.51 5.209 0 0 vehicle esr_can4_frame 1000" />
+</launch>

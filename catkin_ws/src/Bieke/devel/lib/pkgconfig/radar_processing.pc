@@ -1,0 +1,8 @@
+prefix=/home/huashuo/catkin_ws/src/Bieke/devel
+
+Name: radar_processing
+Description: Description of radar_processing
+Version: 0.0.1
+Cflags: -I/home/huashuo/catkin_ws/src/Bieke/src/radar_processing/include
+Libs: -L${prefix}/lib -lradar_processing
+Requires: canfd_msgs roscpp rospy std_msgs radar_serial_driver radar_perception_msgs

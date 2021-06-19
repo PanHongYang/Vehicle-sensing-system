@@ -1,0 +1,8 @@
+prefix=/home/huashuo/catkin_ws/src/Bieke/devel
+
+Name: socketcan_driver
+Description: Description of socketcan_driver
+Version: 0.0.2
+Cflags: -I/home/huashuo/catkin_ws/src/Bieke/src/can/socketcan_to_topic/socketcan_driver/include
+Libs: -L${prefix}/lib -lsocketcan_to_topic
+Requires: roscpp socketcan_interface message_runtime canfd_msgs

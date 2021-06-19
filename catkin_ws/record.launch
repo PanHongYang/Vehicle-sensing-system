@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+<node pkg="rosbag" type="record" name="bag_record" args="-O data /data_gps /imu /canfd_processor/qianradar_target /qian_radar_data /canfd_processor/leftradar_target /left_radar_tf /canfd_processor/rightradar_target /right_radar_tf /rslidar_points /1/usb_cam/image_raw /2/usb_cam/image_raw /3/usb_cam/image_raw /4/usb_cam/image_raw /5/usb_cam/image_raw /6/usb_cam/image_raw"/> 
+
+</launch>

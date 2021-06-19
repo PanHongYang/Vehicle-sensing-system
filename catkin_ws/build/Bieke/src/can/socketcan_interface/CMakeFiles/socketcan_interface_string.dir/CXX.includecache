@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/a/catkin_ws/src/Bieke/src/can/socketcan_interface/include/socketcan_interface/FastDelegate.h
+memory.h
+-
+
+/home/a/catkin_ws/src/Bieke/src/can/socketcan_interface/include/socketcan_interface/interface.h
+linux/can.h
+-
+boost/array.hpp
+-
+boost/shared_ptr.hpp
+-
+boost/system/error_code.hpp
+-
+FastDelegate.h
+/home/a/catkin_ws/src/Bieke/src/can/socketcan_interface/include/socketcan_interface/FastDelegate.h
+boost/thread/mutex.hpp
+-
+iostream
+-
+
+/home/a/catkin_ws/src/Bieke/src/can/socketcan_interface/include/socketcan_interface/string.h
+sstream
+-
+interface.h
+/home/a/catkin_ws/src/Bieke/src/can/socketcan_interface/include/socketcan_interface/interface.h
+
+/home/a/catkin_ws/src/Bieke/src/can/socketcan_interface/src/string.cpp
+linux/can/bcm.h
+-
+socketcan_interface/string.h
+-
+

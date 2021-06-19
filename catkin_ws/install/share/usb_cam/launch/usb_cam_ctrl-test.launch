@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="usb_cam" type="usb_cam_ctrl_node" name="usb_cam_ctrl" output="screen" >
+    <param name="video_device" value="/dev/video0" />
+    <param name="autoexposure" value="true" />
+    <param name="exposure" value="1000" />
+    <!--param name="gain" value="0" /-->
+  </node>
+</launch>

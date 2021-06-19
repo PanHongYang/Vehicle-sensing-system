@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <name>gpal_gpsd</name>
+  <url>http://wiki.ros.org/camera_calibration</url>
+  <description>ROS package of camera intrinsic calibration</description>
+  <version>0.0.1</version>
+  <maintainer email="b98902084@ntu.edu.tw">Bang-Cheng Wang</maintainer>
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>

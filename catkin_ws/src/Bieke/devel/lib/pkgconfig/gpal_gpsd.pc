@@ -1,0 +1,8 @@
+prefix=/home/huashuo/catkin_ws/src/Bieke/devel
+
+Name: gpal_gpsd
+Description: Description of gpal_gpsd
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

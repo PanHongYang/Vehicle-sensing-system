@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+     <node pkg="rosbag" type="record" name="bag_record_camera1" args="-O camera1 /1/usb_cam/image_raw"/> 
+     <node pkg="rosbag" type="record" name="bag_record_camera2" args="-O camera2 /2/usb_cam/image_raw"/> 
+     <node pkg="rosbag" type="record" name="bag_record_camera3" args="-O camera3 /3/usb_cam/image_raw"/> 
+     <node pkg="rosbag" type="record" name="bag_record_camera4" args="-O camera4 /4/usb_cam/image_raw"/> 
+     <node pkg="rosbag" type="record" name="bag_record_camera5" args="-O camera5 /5/usb_cam/image_raw"/> 
+     <node pkg="rosbag" type="record" name="bag_record_camera6" args="-O camera6 /6/usb_cam/image_raw"/> 
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/a/catkin_ws/devel
+
+Name: timesync
+Description: Description of timesync
+Version: 1.0.0
+Cflags: -I/home/a/catkin_ws/devel/include -I/home/a/catkin_ws/src/Bieke/src/imu/timesync_ros/include
+Libs: -L${prefix}/lib -ltimesync
+Requires: dynamic_reconfigure roscpp message_runtime

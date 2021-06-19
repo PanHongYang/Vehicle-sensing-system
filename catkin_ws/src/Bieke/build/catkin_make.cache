@@ -1,0 +1,2 @@
+calterah_venus_rospkg:camera/usb_cam:can/socketcan_interface:can/socketcan_to_topic/canfd_msgs:can/socketcan_to_topic/esr_msgs:can/socketcan_to_topic/socketcan_driver:car_model:drvmgr:gps/gpsd:imu/saic:radar_data_show:radar_freespace:radar_processing:radar_serial:robosense/rslidar:robosense/rslidar_driver:robosense/rslidar_msgs:robosense/rslidar_pointcloud:ros_msgs/radar_perception_msgs:serial:tf_calibration
+-DCATKIN_DEVEL_PREFIX=/home/huashuo/catkin_ws/src/Bieke/devel -DCMAKE_INSTALL_PREFIX=/home/huashuo/catkin_ws/src/Bieke/install -G Unix Makefiles

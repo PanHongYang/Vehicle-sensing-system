@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+ <node pkg="zuoyouradar" name="zuoyouradar" type="zuoyouradar" output="screen" >
+ </node>
+ <!--node pkg="rosbag" type="record" name="bag_record_lefteradar" args="-O leftradar /canfd_processor/leftradar_target /left_radar_tf"/>
+ <node pkg="rosbag" type="record" name="bag_record_rightradar" args="-O rightradar /canfd_processor/rightradar_target /right_radar_tf"/-->
+</launch>

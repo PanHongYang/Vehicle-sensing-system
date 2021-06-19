@@ -1,0 +1,8 @@
+prefix=/home/huashuo/catkin_ws/src/Bieke/devel
+
+Name: car_model
+Description: Description of car_model
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs visualization_msgs tf

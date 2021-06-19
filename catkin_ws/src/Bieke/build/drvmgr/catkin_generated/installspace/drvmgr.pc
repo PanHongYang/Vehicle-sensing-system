@@ -1,0 +1,8 @@
+prefix=/home/huashuo/catkin_ws/src/Bieke/install
+
+Name: drvmgr
+Description: Description of drvmgr
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

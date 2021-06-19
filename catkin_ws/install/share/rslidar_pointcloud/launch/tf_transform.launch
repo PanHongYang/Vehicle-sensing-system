@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="tf" type="static_transform_publisher" name="name1" args="0 0 0 0 0 0  rslidar_pointcloud rslidar 1000" />
+  <node pkg="tf" type="static_transform_publisher" name="name2" args="0 0 0 0 0 0 qianradar 0dom 1000" />
+                      
+</launch>

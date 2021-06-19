@@ -1,0 +1,8 @@
+prefix=/home/huashuo/catkin_ws/src/Bieke/devel
+
+Name: calterah_venus_rospkg
+Description: Description of calterah_venus_rospkg
+Version: 0.0.0
+Cflags: -I/home/huashuo/catkin_ws/src/Bieke/src/calterah_venus_rospkg/include
+Libs: -L${prefix}/lib 
+Requires: roscpp serial std_msgs sensor_msgs

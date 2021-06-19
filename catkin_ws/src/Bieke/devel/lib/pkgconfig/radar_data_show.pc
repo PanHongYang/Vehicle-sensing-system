@@ -1,0 +1,8 @@
+prefix=/home/huashuo/catkin_ws/src/Bieke/devel
+
+Name: radar_data_show
+Description: Description of radar_data_show
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
